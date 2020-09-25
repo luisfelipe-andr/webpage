@@ -1,0 +1,404 @@
+/* general */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Futura, Helvetica, sans-serif;
+  background-color: hsla(0, 0%, 98%, 1);
+}
+ 
+
+
+
+
+/* card */
+
+.card {
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.card-text {
+  margin: 0 0 2.5rem 0;
+}
+
+
+
+
+
+/* caroussel */
+
+.carousel {
+  padding: 0 3rem;
+}
+
+.carousel h3 {
+  padding: 0 0 1.5rem 0;
+}
+
+.carousel-caption {
+  background-color: hsla(0, 0%, 0%, 1);
+  margin: 3rem;
+  padding: 1rem;
+}
+
+.carousel-caption h4 {
+  color: hsla(0, 0%, 12%, 1);
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: hsla(0, 0%, 12%, 1);
+}
+
+
+
+
+
+/* text */
+  
+h1 {
+  font-size: 5.8rem;
+  line-height: 8rem;
+  color: hsla(0, 0%, 98%, 1);
+  margin: 0;  
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+p, figcaption {
+  font-size: 1.6rem;
+  color: hsla(0, 0%, 12%, 1);
+}
+
+
+
+
+
+/* img */
+
+img {
+  margin: 0 0 2rem;
+  width: 100%;
+  height: auto;
+} 
+
+
+
+
+
+/* audio */
+#tetris-song {
+  margin: .75rem 0 0 0;
+  width: 50%;
+  height: 4.5rem;
+  background-color: hsla(0, 0%, 98%, 1);
+  color: hsla(0, 0%, 98%, 1);
+}
+
+audio:hover, audio:focus, audio:active {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  transform: scale(1.02);
+  transition: transform .15s ease-in-out;
+}
+
+
+
+
+
+/* list */
+
+ul {
+  list-style: none;
+  font-size: 1.6rem;
+  color: hsla(0, 0%, 12%, 1);
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+/* spacing */
+
+.mb-10 {
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+/* header */
+
+header {
+  padding: 2rem;
+}
+
+
+
+
+
+/* logo */
+
+#logo {
+  font-family: 'amiga_normalregular', Cooper, serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+#logo:link, #logo:visited, #logo:hover {
+  text-decoration: none;
+  color: hsla(240, 100%, 50%, 1);
+}
+
+#logo:hover {
+  font-size: 2.2rem;
+  color: hsla(240, 100%, 37%, 1);
+  transition: font-size .15s ease-in-out, color .15s ease-in-out;
+}
+
+#logo:active {
+  font-size: 2.2rem;
+  color: hsla(240, 100%, 25%, 1);
+  transition: font-size .15s ease-in-out, color .15s ease-in-out;
+}
+
+
+
+
+
+/* menu-navigation */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  padding: 0rem;
+}
+
+nav a:link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: hsla(13, 100%, 50%, 1);
+  padding: 0 2rem;
+  margin: 0px;
+}
+
+nav a:visited {
+  color: hsla(13, 100%, 50%, 1);
+}
+
+nav a:hover {
+  font-size: 1.8rem;
+  color: hsla(13, 100%, 37%, 1);
+  cursor: pointer;
+  transition: color .15s ease-in-out, font-size .15s ease-in-out;
+}
+
+nav a:active {
+  font-size: 1.8rem;
+  color: hsla(13, 100%, 25%, 1);
+  transition: color .15s ease-in-out, font-size .15s ease-in-out;
+}
+
+
+
+
+
+/* jumbotron */
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: hsla(60, 100%, 50%, 1);
+  background-image: url('img/jumbotron.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  margin-bottom: 10rem;
+}
+  
+.black-container {
+  background-color: hsla(0, 0%, 0%, 1);
+  padding: 2rem;
+}
+  
+.jumbotron h3 {
+  color: hsla(0, 0%, 98%, 1);
+}
+
+
+
+
+
+/* footer */
+
+footer {
+  padding: 2rem 0;
+}
+  
+footer p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+ 
+
+
+
+
+/* footer-navigation */
+
+footer a:link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: hsla(13, 100%, 50%, 1);
+  padding: 0 2rem;
+  margin: 0px;
+}
+
+footer a:visited {
+  color: hsla(13, 100%, 50%, 1);
+}
+
+footer a:hover {
+  color: hsla(13, 100%, 37%, 1);
+  cursor: pointer;
+  transition: color .15s ease-in-out;  
+}
+
+footer a:active {
+  color: hsla(13, 100%, 25%, 1);
+  transition: color .15s ease-in-out;  
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  -webkit-transform: scale(1.10);
+  -moz-transform: scale(1.10);
+  transform: scale(1.10);
+  transition: transform .15s ease-in-out;
+}
+
+
+
+
+
+/* address */
+
+.Address-link {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+
+
+
+
+/* ========================================== media-query-tablet ==========================================*/
+
+@media screen and (max-width: 768px) {
+
+  /* menu-navigation */
+
+  nav a:link {
+    padding: 0 1rem;
+  }
+
+  .carousel-caption {
+    margin: 2rem;
+    padding: 0.5rem;
+  }
+}
+
+
+
+
+
+/* ======================================== media-query-smartphone ========================================*/
+
+@media screen and (max-width: 576px) {
+
+  /* general */
+
+  .row {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-group {
+    text-align: center;
+  }
+
+
+
+
+
+  /* logo */
+  #logo a:active {
+    font-size: 3.2rem;
+    transition: font-size .15s ease-in-out
+  }
+
+
+
+
+
+  /* menu-navigation */
+
+  nav li {
+    padding: 1rem 0;
+  }
+  
+
+
+
+
+  /* jumbotron */
+
+  .black-container {
+    width: 100%;
+  }
+
+
+
+
+  
+  /* footer */
+
+  footer p {
+    padding: 1.5rem 0 0 0;
+  }
+
+  footer div {
+    padding: 1rem;
+  }
+
+
+
+
+  
+  /* footer-navigation */
+
+  footer a:link {
+    padding: 1rem 0;
+  }
+}
